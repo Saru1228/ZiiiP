@@ -1,0 +1,38 @@
+diff --git a/src/predictor.cpp b/src/predictor.cpp
+index b353426..170386b 100644
+--- a/src/predictor.cpp
++++ b/src/predictor.cpp
+@@ -249,9 +249,10 @@ Predictor::Predictor(const std::vector<bool>& vocab,
+     return;
+   }
+   AddBracket();
+-  // With load_transformer_probs the ppmd is not run: its mixer input is a
+-  // constant and the transformer's distributions come from the file.
+-  if (!transformer_probs_reader_) AddPPMD();
++  // With load_transformer_probs the transformer's distributions come from the
++  // file, but PPMD still has to run so the surrounding cmix mixer sees the same
++  // PPMD bit-level input as it does in the normal transformer path.
++  AddPPMD();
+   fxcm_model_.emplace();
+   AddWord();
+   AddMatch();
+@@ -693,6 +694,8 @@ void Predictor::Perceive(int bit) {
+ 
+       if (transformer_) {
+         TransformerByteUpdate();
++      } else if (transformer_probs_reader_) {
++        LoadTransformerProbs();
+       } else {
+         const std::valarray<float>& p = byte_model_->BytePredict();
+         for (unsigned int j = 0; j < 256; ++j) {
+@@ -701,10 +704,6 @@ void Predictor::Perceive(int bit) {
+ 
+         byte_mixer_->ByteUpdate();
+       }
+-    } else {
+-      // --load-transformer-probs: the ppmd and the transformer are not run;
+-      // the byte-level distribution comes from the file instead.
+-      LoadTransformerProbs();
+     }
+   }
+   byte_mixer_output = byte_mixer_->Predict()[0];

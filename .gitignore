@@ -1,0 +1,52 @@
+# Local datasets and generated probability matrices.
+enwik9
+enwik9.zip
+data/
+*.comp
+archive9
+ppm.temp
+
+# Large experiment outputs.
+*.float16
+*.float32
+*.bfloat16
+*.uint8
+*.int32
+*.npy
+*.npz
+*.pt
+*.pth
+*.tch
+*.tfwc2
+*.bin
+*.log
+*.temp
+
+# Regenerable experiment working directories.
+experiments/**/work/
+experiments/**/killtest_work/
+experiments/**/slice_scan/
+experiments/**/probs/
+experiments/**/nonoracle_probs/
+experiments/**/nonoracle_labels/
+experiments/**/rank_probs/
+
+# Build and cache outputs.
+run/
+cmix
+*.o
+*.obj
+*.exe
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Upstream source is reproducible; clone it on each machine.
+fx2-cmix-transformer-v1/
+
+# Local editor and OS files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

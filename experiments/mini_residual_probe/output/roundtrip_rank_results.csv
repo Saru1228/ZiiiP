@@ -1,0 +1,7 @@
+variant,compressed_bytes,delta_vs_full_transformer_bytes,reported_loss_nats_per_token,notes
+full_transformer_same_binary,175130,0,5.640617,normal transformer path with rebuilt patched cmix
+load_saved_transformer_same_binary,175130,0,5.640617,round-trip control after PPMD-state fix
+load_ppmd_probs,176338,1208,2.064948,uses PPMD probability rows as downstream distribution
+load_rank1_residual,176460,1330,5.524557,low-rank residual reconstruction
+load_rank16_residual,176361,1231,5.708754,low-rank residual reconstruction
+load_rank64_residual,176294,1164,5.830953,low-rank residual reconstruction

@@ -1,0 +1,63 @@
+{
+  "cmix_log": {
+    "cmix_reported_downstream_loss_bits_per_token": 8.137690173453983,
+    "cmix_reported_downstream_loss_nats_per_token": 5.640617,
+    "cmix_reported_loss_tokens": 600742,
+    "compressed_bits_per_raw_byte": 1.401032,
+    "compressed_bytes": 175129,
+    "raw_bytes": 1000000
+  },
+  "evaluated_predictions": 600741,
+  "input_files": {
+    "ppmd": "/tmp/fx2-head-c/ppmd.float16",
+    "tokens": "/tmp/fx2-head-c/tokens.uint8",
+    "transformer": "/tmp/fx2-head-c/transformer.float16"
+  },
+  "ppmd_bpb": 2.979086050082315,
+  "ranks": [
+    {
+      "bpb": 9.771562328857195,
+      "cumulative_explained_variance": 0.3992646317781577,
+      "rank": 1
+    },
+    {
+      "bpb": 12.932505179020577,
+      "cumulative_explained_variance": 0.515150229680781,
+      "rank": 2
+    },
+    {
+      "bpb": 11.785315708017265,
+      "cumulative_explained_variance": 0.6045213090833651,
+      "rank": 4
+    },
+    {
+      "bpb": 11.989717776670812,
+      "cumulative_explained_variance": 0.6510011376683429,
+      "rank": 8
+    },
+    {
+      "bpb": 12.141647981409626,
+      "cumulative_explained_variance": 0.70074848558993,
+      "rank": 16
+    },
+    {
+      "bpb": 12.390256262682254,
+      "cumulative_explained_variance": 0.7633629786211537,
+      "rank": 32
+    },
+    {
+      "bpb": 12.447159164681619,
+      "cumulative_explained_variance": 0.8438833062777067,
+      "rank": 64
+    },
+    {
+      "bpb": 12.322327446436983,
+      "cumulative_explained_variance": 0.9399044394986825,
+      "rank": 128
+    }
+  ],
+  "saved_downstream_transformer_bpb": 11.984075292014362,
+  "saved_downstream_transformer_delta_vs_ppmd_bpb": -9.004989241932048,
+  "tokens": 600742,
+  "vocab_size": 205
+}

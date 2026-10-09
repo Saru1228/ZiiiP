@@ -1,0 +1,110 @@
+{
+  "/mnt/d/hunterprize/experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank32_lr0.001.npz": {
+    "inference_time": 186.263396974
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank16_lambda0.0001.npz": {
+    "fp32_weight_bytes": 13632,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 3408,
+    "parameter_count": 3408,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank16_lambda0.001.npz": {
+    "fp32_weight_bytes": 13632,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 3408,
+    "parameter_count": 3408,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank16_lambda0.01.npz": {
+    "fp32_weight_bytes": 13632,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 3408,
+    "parameter_count": 3408,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank32_lambda0.0001.npz": {
+    "fp32_weight_bytes": 27264,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 6816,
+    "parameter_count": 6816,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank32_lambda0.001.npz": {
+    "fp32_weight_bytes": 27264,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 6816,
+    "parameter_count": 6816,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank32_lambda0.01.npz": {
+    "fp32_weight_bytes": 27264,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 6816,
+    "parameter_count": 6816,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank8_lambda0.0001.npz": {
+    "fp32_weight_bytes": 6816,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 1704,
+    "parameter_count": 1704,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank8_lambda0.001.npz": {
+    "fp32_weight_bytes": 6816,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 1704,
+    "parameter_count": 1704,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/linear_pca_rank8_lambda0.01.npz": {
+    "fp32_weight_bytes": 6816,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 1704,
+    "parameter_count": 1704,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank16_lr0.0003.npz": {
+    "fp32_weight_bytes": 357952,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 89488,
+    "parameter_count": 89488,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank16_lr0.001.npz": {
+    "fp32_weight_bytes": 357952,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 89488,
+    "parameter_count": 89488,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank32_lr0.0003.npz": {
+    "fp32_weight_bytes": 366208,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 91552,
+    "parameter_count": 91552,
+    "training_time": 539.6674341379999
+  },
+  "experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank32_lr0.001.npz": {
+    "fp32_weight_bytes": 366208,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 91552,
+    "parameter_count": 91552,
+    "training_time": 530.613535043
+  },
+  "experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank8_lr0.0003.npz": {
+    "fp32_weight_bytes": 353824,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 88456,
+    "parameter_count": 88456,
+    "training_time": 0.0
+  },
+  "experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank8_lr0.001.npz": {
+    "fp32_weight_bytes": 353824,
+    "inference_time": null,
+    "int8_weight_bytes_estimate": 88456,
+    "parameter_count": 88456,
+    "training_time": 0.0
+  }
+}

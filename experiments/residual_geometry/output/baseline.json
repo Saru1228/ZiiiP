@@ -1,0 +1,14 @@
+{
+  "transformer_bytes": 175130,
+  "ppmd_bytes": 176338,
+  "gap_bytes": 1208,
+  "sample_raw_bytes": 1000000,
+  "tokens": 600742,
+  "vocab_size": 205,
+  "binary_sha256": "2eb4ce68c0154a393d41e6281e9aca5247e407e1c6daba5f13c6bf4d804b6b2f",
+  "sanity_check": {
+    "direct_transformer_bytes": 175130,
+    "roundtrip_transformer_bytes": 175130,
+    "passed": true
+  }
+}

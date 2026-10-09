@@ -1,0 +1,16 @@
+model,target,rank,hyperparameter,validation_mse,validation_cosine,parameter_count,training_time,model_file,resumed_from_existing
+linear,pca,8,lambda=0.0001,75.21784210205078,0.8899241089820862,1704,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank8_lambda0.0001.npz,True
+linear,pca,8,lambda=0.001,75.21784210205078,0.8899241089820862,1704,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank8_lambda0.001.npz,True
+linear,pca,8,lambda=0.01,75.21784210205078,0.8899241089820862,1704,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank8_lambda0.01.npz,True
+tiny_mlp,pca,8,lr=0.001,37.03546905517578,0.9456436634063721,88456,0.0,experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank8_lr0.001.npz,True
+tiny_mlp,pca,8,lr=0.0003,43.760337829589844,0.9378518462181091,88456,0.0,experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank8_lr0.0003.npz,True
+linear,pca,16,lambda=0.0001,44.204872131347656,0.872333288192749,3408,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank16_lambda0.0001.npz,True
+linear,pca,16,lambda=0.001,44.204872131347656,0.872333288192749,3408,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank16_lambda0.001.npz,True
+linear,pca,16,lambda=0.01,44.204872131347656,0.872333288192749,3408,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank16_lambda0.01.npz,True
+tiny_mlp,pca,16,lr=0.001,23.781681060791016,0.9311398863792419,89488,0.0,experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank16_lr0.001.npz,True
+tiny_mlp,pca,16,lr=0.0003,28.270977020263672,0.9196386337280273,89488,0.0,experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank16_lr0.0003.npz,True
+linear,pca,32,lambda=0.0001,26.392881393432617,0.8508111834526062,6816,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank32_lambda0.0001.npz,True
+linear,pca,32,lambda=0.001,26.392881393432617,0.8508111834526062,6816,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank32_lambda0.001.npz,True
+linear,pca,32,lambda=0.01,26.392881393432617,0.8508111834526062,6816,0.0,experiments/residual_geometry/nonoracle_models/linear_pca_rank32_lambda0.01.npz,True
+tiny_mlp,pca,32,lr=0.001,16.07936668395996,0.9079358577728271,91552,530.613535043,experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank32_lr0.001.npz,False
+tiny_mlp,pca,32,lr=0.0003,18.77678680419922,0.8932532072067261,91552,539.6674341379999,experiments/residual_geometry/nonoracle_models/tiny_mlp_pca_rank32_lr0.0003.npz,False

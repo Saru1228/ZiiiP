@@ -1,0 +1,2 @@
+model,target,rank,slice,ppmd_bytes,transformer_bytes,predictor_bytes,gap_bytes,saved_vs_ppmd,recovered_percent,parameter_count,alpha,prob_file,comp_file,cmix_runtime_seconds,inference_generation_seconds,reported_loss_nats_per_token,shuffle_sanity
+tiny_mlp,pca,32,slice_2,190291,189118,190352,1173,-61,-5.200341005967604,91552,0.8,/mnt/d/hunterprize/experiments/residual_geometry/nonoracle_probs/tiny_mlp_pca_rank32_slice_2.float16,/mnt/d/hunterprize/experiments/residual_geometry/killtest_work/slice_2/tiny_mlp_pca_rank32.comp,180.50297945399961,0.0,5.328472,no

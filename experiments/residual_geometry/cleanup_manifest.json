@@ -1,0 +1,38 @@
+﻿[
+    {
+        "Path":  "D:\\hunterprize\\experiments\\residual_geometry\\killtest_work",
+        "MB":  5054.82
+    },
+    {
+        "Path":  "D:\\hunterprize\\experiments\\residual_geometry\\probs",
+        "MB":  15503.03
+    },
+    {
+        "Path":  "D:\\hunterprize\\experiments\\residual_geometry\\nonoracle_probs",
+        "MB":  1196.91
+    },
+    {
+        "Path":  "D:\\hunterprize\\experiments\\residual_geometry\\nonoracle_labels",
+        "MB":  224.19
+    },
+    {
+        "Path":  "D:\\hunterprize\\experiments\\residual_geometry\\work",
+        "MB":  476.7
+    },
+    {
+        "Path":  "D:\\hunterprize\\experiments\\residual_geometry\\slice_scan",
+        "MB":  26.31
+    },
+    {
+        "Path":  "D:\\hunterprize\\experiments\\residual_geometry\\__pycache__",
+        "MB":  0.06
+    },
+    {
+        "Path":  "D:\\hunterprize\\experiments\\mini_residual_probe\\rank_probs",
+        "MB":  704.68
+    },
+    {
+        "Path":  "D:\\hunterprize\\fx2-cmix-transformer-v1\\run\\comp_order.cmix.temp",
+        "MB":  1.21
+    }
+]
